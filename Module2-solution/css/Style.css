@@ -1,0 +1,100 @@
+  * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+  }
+  body{
+    margin-left: 1%;
+    margin-right: 0%;
+    
+  }
+  h1{
+    text-align: center;
+    font-size: 200%;
+  }
+  div {
+    background-color: #FFFFA1;
+    
+  }
+
+  @media (min-width: 992px){
+    .col-lg-4{
+      position: relative;
+      float: left;
+      border: 1px solid black;
+      margin-bottom: 20px;
+      margin-right: 1%;
+      width: 32.3%;
+      border-width: 2px;
+      font-size: 100%;
+      }
+  }
+
+  @media (max-width: 991px) and (min-width: 768px){
+    .col-md-6, .col-md-12 {
+      position: relative;
+      float: left;
+      border: 1px solid black;
+      margin-bottom: 10px;
+      margin-right: 1%;
+      border-width: 2px;
+      font-size: 100%;
+    }
+    .col-md-6{
+      width: 49%;
+    } 
+    .col-md-12{
+      width: 99%;
+    } 
+
+  }
+  
+  @media (max-width: 767px){
+    .col-sml-12 {
+      position: relative;
+      float: left;
+      border: 2px solid black;
+      margin-bottom: 10px;
+      margin-right: 1%;
+      font-size: 100%;
+      width: 99%;
+       
+    } 
+
+  }
+
+   div {
+    position: relative;
+    margin-right: 1%;
+   }
+     p{
+    font-size: 100%;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-weight: 400; 
+   
+    clear: right;
+    }
+
+
+  p.topic {
+     font-size: 80%;
+     float: right;
+     border: 1px solid black;
+     background-color: #ABCDE1;
+     min-width:16.6%;
+     max-width: 16.7%;
+     min-height: 5%;
+     max-height: 6%;
+     text-align: center;
+     margin-top: 0px;
+     margin-bottom: 0px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    font-weight: 700;
+  }
+ 
